@@ -1,0 +1,39 @@
+.footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #1B262F;;
+    &__find{
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        margin-right: 400px;
+
+    }
+    &__list1{
+        display: flex;
+        list-style: none;
+
+    }
+    &__item{
+        padding-right: 40px;
+
+    }
+    &__item2{
+        margin-left: 24px;
+    }
+
+}
+.footer__item>a{
+    text-decoration: none;
+    color: #FBFCFE;;
+
+}
+
+svg:hover path {
+    fill: #DA6D97;
+}
